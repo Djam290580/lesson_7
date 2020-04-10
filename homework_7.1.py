@@ -11,6 +11,7 @@
 matrix_1 = [[2, 3, 6, 1], [7, 8, 9, 4], [5, 3, 7, 0]]
 matrix_2 = [[8, 5, 2, 0], [7, 4, 1, 0], [0, 5, 9, 3]]
 
+
 class Matrix:
     def __init__(self, param):
         self.param = param
@@ -26,6 +27,7 @@ class Matrix:
                 matrix_3[i].append(self.param[i][j] + other.param[i][j])
         return '\n'.join(map(str, matrix_3))
 
+
 mx_1 = Matrix(matrix_1)
 mx_2 = Matrix(matrix_2)
 
@@ -34,7 +36,7 @@ print()
 print(f'Matrix_2:\n{mx_2}')
 print(f'Matrix_3 = Matrix_1 + Matrix_2:\n{mx_1 + mx_2}')
 
-#-------------------------------------------------------------------------------------------------------------------
+# -------------------------------------------------------------------------------------------------------------------
 
 # class Matrix:
 #     def __init__(self, matrix):
@@ -54,7 +56,7 @@ print(f'Matrix_3 = Matrix_1 + Matrix_2:\n{mx_1 + mx_2}')
 # print('First matrix:\n', matrix_1, end='\n\n')
 # print('Second matrix:\n', matrix_2, end='\n\n')
 
-#---------------------------------------------------------------------------------------------------------------------
+# ---------------------------------------------------------------------------------------------------------------------
 
 # class Matrix:
 #     def __init__(self, list_1, list_2):
