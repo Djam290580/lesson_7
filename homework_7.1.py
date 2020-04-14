@@ -27,7 +27,6 @@ class Matrix:
                 matrix_3[i].append(self.param[i][j] + other.param[i][j])
         return '\n'.join(map(str, matrix_3))
 
-
 mx_1 = Matrix(matrix_1)
 mx_2 = Matrix(matrix_2)
 
